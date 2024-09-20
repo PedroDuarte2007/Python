@@ -1,0 +1,45 @@
+Var
+// Seção de Declarações das variáveis 
+peso: inteiro
+altura: real
+IMC: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Escreva seu peso")
+leia(peso)
+
+escreval("Escreva sua altura")
+leia(altura)
+
+IMC := peso / (altura * altura)
+
+escreval("Seu Imc é igual a:", IMC)
+
+se (IMC <= 16.9) então
+   escreval("Muito abaixo do peso")
+senao
+se (IMC >= 17) e (IMC <= 18.4) então
+   escreval("Abaixo do peso")
+senao
+se (IMC >= 18.5) e (IMC <= 24.9) então
+   escreval("Peso Normal")
+senao
+se (IMC >= 25) e (IMC <= 29.9) então
+   escreval("Acima do Peso")
+senao
+se (IMC >= 30) e (IMC <= 34.9) então
+   escreval("Obesidade Grua 1")
+senao
+se (IMC >= 35) e (IMC <= 40) então
+   escreval("Obesidade Grau 2")
+senao
+se (IMC >= 40)então
+   escreval("Obesidade Grau 3")
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+Fimalgoritmo
