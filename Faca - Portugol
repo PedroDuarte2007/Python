@@ -1,0 +1,6 @@
+i: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+para i de i ate 1000 faca
+escreval(i)
+fimpara
