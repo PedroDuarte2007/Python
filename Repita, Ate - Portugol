@@ -1,0 +1,8 @@
+numero: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+repita
+escreval("Palmeiras tem mundial, se sim digite 1 se nao digite 0: ")
+leia(numero)
+ate (numero = 0)
+Fimalgoritmo
