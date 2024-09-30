@@ -1,0 +1,4 @@
+gh = int(input("Digite quanto voce ganha por hora: "))
+nh = int(input("Digite o numero de horas trabalhadas: "))
+m = (gh * nh) * 26
+print("O salario ganho é: ", m)
