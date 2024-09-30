@@ -1,0 +1,3 @@
+raio = int(input("Digite o raio do circulo para que o valor da area seja calculado: "))
+area = 3.14 * (raio ^ 2)
+print("O valor da area é: ", area)
