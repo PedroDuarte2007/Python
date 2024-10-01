@@ -1,0 +1,11 @@
+salb = int(input("Digite quanto voce ganha por mes: "))
+sall = salb - (salb * 0.024)
+ir = (salb * 0.011)
+inss = (salb * 0.008)
+sind = (salb * 0.005)
+print("O valor do IR referente ao seu salario é: R$",ir)
+print("O valor do INSS referente ao seu salario é: R$",inss)
+print("O valor do sindicato referente ao seu salario é: R$",sind)
+print("Seu salario bruto e de: R$",salb)
+print("Seu salario liquido e de: R$",sall)
+
