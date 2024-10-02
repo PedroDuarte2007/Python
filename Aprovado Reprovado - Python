@@ -1,0 +1,8 @@
+n1 = int(input("Digite sua nota: "))
+
+if n1 >= 60:
+    print("Aprovado")
+else:
+    print("Reprovado")
+
+
