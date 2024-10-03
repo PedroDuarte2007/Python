@@ -1,0 +1,14 @@
+import random
+
+numero_secreto = random.randrange(1, 100)
+tentativas = 0
+
+while True:
+    tentativas += 1
+    valor = int(input("Qual o seu palpite? "))
+    if valor < numero_secreto:
+        print("Muito baixo")
+    elif valor > numero_secreto:
+        print("Muito alto")
+    else:
+        break
