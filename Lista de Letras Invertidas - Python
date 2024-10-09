@@ -1,0 +1,5 @@
+lista = ["a", "b", "c", "d", "e"]
+
+letras = lista[::-1]
+
+print(letras)
