@@ -1,0 +1,3 @@
+lista = ["Viado", "Cachorro", "Girrafa", "Gato", "Rato"]
+
+print(lista)
