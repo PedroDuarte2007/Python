@@ -1,0 +1,7 @@
+lista = ["banana", "kiwi", "abacaxi", "maçã", "uva"]
+
+for i in range(0,3):
+    fruta= input("Qual a fruta? ")
+    lista.append(fruta)
+
+print(lista)
