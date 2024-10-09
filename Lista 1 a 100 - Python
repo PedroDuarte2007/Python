@@ -1,0 +1,9 @@
+lista = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+ult = lista.pop()
+
+print(ult)
+
+pri = lista.pop(0)
+
+print(pri)
