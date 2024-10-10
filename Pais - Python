@@ -1,0 +1,9 @@
+
+lista = ["Brasil", "Japão", "Canadá", "Austrália", "França"]
+
+pais = "Portugal"
+
+if pais in lista:
+    print(f"{pais} está na lista.")
+else:
+    print(f"{pais} não está na lista.")
