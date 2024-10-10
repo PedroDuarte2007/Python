@@ -1,0 +1,6 @@
+lista = ["Floripa", "Jaguariuna", "São Paulo", "Campinas", "Belo Horizonte"]
+
+lista.sort()
+
+for lista in lista:
+    print(lista)
