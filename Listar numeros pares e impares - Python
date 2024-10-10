@@ -1,0 +1,9 @@
+numeros = list(range(1, 11))
+
+numeros_impar = []
+
+for i in numeros:
+    if i % 2 != 0:
+        numeros_impar.append(i)
+
+print(numeros_impar)
