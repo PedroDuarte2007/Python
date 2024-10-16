@@ -1,0 +1,4 @@
+def quad(a):
+ return a * a
+resultado = quad(9)
+print(resultado)
