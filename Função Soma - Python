@@ -1,0 +1,4 @@
+def soma(a, b):
+ return a + b
+resultado = soma(9, 1)
+print(resultado)
