@@ -1,0 +1,9 @@
+def maiormenor(numero):
+    if numero % 2 == 0:
+        return "maior"
+    else:
+        return "menor"
+resultado = maiormenor(5)
+print(resultado)  
+resultado = maiormenor(6)
+print(resultado)
