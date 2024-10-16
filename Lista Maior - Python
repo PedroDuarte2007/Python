@@ -1,0 +1,11 @@
+def maior_lista(numeros):
+    if not numeros:
+        return None
+    maior = numeros[0]  
+    for numero in numeros:
+        if numero > maior:
+            maior = numero
+    return maior
+
+lista = [3, 5, 1, 8, 2]
+print(maior_lista(lista)) 
