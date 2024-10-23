@@ -1,0 +1,9 @@
+try:
+    numeros = input("Digite uma lista de numero separados por virgula: ")
+    lista_numeros = [float(num) for num in numeros.split(",")]
+    media = sum(lista_numeros)/len(lista_numeros)
+    print(f"A media é: {media}")
+except ValueError:
+    print("Por favor, digite apenas numeros validos")
+except ZeroDivisionError:
+    print("Não confie no Luis Milan, pois ele pensa que divisão se faz por zero")
