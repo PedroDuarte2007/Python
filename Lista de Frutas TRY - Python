@@ -1,0 +1,15 @@
+def lista():
+    lista = ['maçã', 'banana', 'laranja']
+    
+    try:
+        indice = int(input("Digite um índice (0, 1 ou 2) para acessar um elemento da lista: "))
+        
+        fruta = lista[indice]
+        print(f"O elemento no índice {indice} é: {fruta}")
+    
+    except IndexError:
+        print("Erro: O índice esta fora da lista. Por favor, escolha 0, 1 ou 2.")
+    except ValueError:
+        print("Erro: Por favor, insira um número inteiro válido.")
+
+lista()
