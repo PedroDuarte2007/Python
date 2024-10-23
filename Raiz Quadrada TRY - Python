@@ -1,0 +1,15 @@
+import math
+def verificacao_raiz_quadrada():
+    try:
+        numero = float(input("Digite um número para calcular sua raiz quadrada: "))
+
+        if numero < 0:
+            raise ValueError("Erro: Não é possível calcular a raiz quadrada de um número negativo.")
+
+        raiz = math.sqrt(numero)
+        print(f"A raiz quadrada de {numero} é: {raiz}")
+    
+    except ValueError as e:
+        print(e)
+
+verificacao_raiz_quadrada()
