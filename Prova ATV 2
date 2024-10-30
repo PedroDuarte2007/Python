@@ -1,0 +1,12 @@
+t1 = float(input("Digite uma temperatura: "))
+t2 = float(input("Digite uma temperatura: "))
+t3 = float(input("Digite uma temperatura: "))
+t4 = float(input("Digite uma temperatura: "))
+m = (t1+t2+t3+t4)/4
+temps = [t1, t2 , t3, t4]
+mt = max(temps)
+mnt = min(temps)
+print("A média é: ", m)
+print("Todas as notas são: ", t1, t2, t3, t4)
+print("A menor nota foi: ", mnt)
+print("A maior nota foi: ", mt)
