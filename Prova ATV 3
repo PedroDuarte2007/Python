@@ -1,0 +1,17 @@
+n1 = int(input("Digite o salario: "))
+n2 = int(input("Digite o salario pela segunda vez: "))
+
+if n1 <= 280:
+    n1 = (n1 * 0.20) + n1
+    print(f"O salario é igual a e o porcentual aplicado foi de 20%: ", n1)
+if n1 == 280 < 700:
+    n1 = (n1 * 0.15) + n1
+    print(f"O salario é igual a e o porcentual aplicado foi de 15%: ", n1)
+if n1 == 700 < 1500:
+    n1 = (n1 * 0.10) + n1
+    print(f"O salario é igual a e o porcentual aplicado foi de 10%: ", n1)
+if n1 >= 1500:
+    n1 = (n1 * 0.05) + n1
+    print(f"O salario é igual a e o porcentual aplicado foi de 5%: ", n1)
+
+print("Seu salario antes do reajuste era: ", n2)
